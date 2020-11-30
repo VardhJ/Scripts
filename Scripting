@@ -1,4 +1,4 @@
-SCRIPTING
+SCRIPTING for bash
 
 ping ip : ping to check if server is responsive
 ping ip -c 1 : one ping
