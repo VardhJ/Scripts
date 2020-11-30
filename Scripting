@@ -1,0 +1,13 @@
+SCRIPTING
+
+ping ip : ping to check if server is responsive
+ping ip -c 1 : one ping
+cat ip.txt
+ping ip -c 1 > ip.txt : extract info to a file
+
+cat ip.txt | grep "64 bytes" : grabs 64 bytes from txt file
+cat ip.txt | cut -d " " -f 4 : d is delimiter(what to cut off) field 4 which is 4 spaces after
+cat ip.txt | cut -d " " -f 4 | tr -d ":" : to trim colon
+
+gedit ipsweep.sh : script
+
