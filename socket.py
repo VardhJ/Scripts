@@ -1,6 +1,6 @@
 #!/bin/python3
 
-import socket
+import socket # to import socket
 
 HOST = '127.0.0.1'  #making portscanner
 PORT = 7777
